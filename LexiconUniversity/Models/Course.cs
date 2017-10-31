@@ -12,7 +12,7 @@ namespace LexiconUniversity.Models
         public string CourseId { get; set; }
         public string Name { get; set; }
         public int Credit { get; set; }
-        // Egidio is here
+     
         //navigational properties
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
