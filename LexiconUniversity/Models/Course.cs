@@ -10,7 +10,6 @@ namespace LexiconUniversity.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string CourseId { get; set; }
-        public int EGIDIOTEST {get; set;}
         public string Name { get; set; }
         public int Credit { get; set; }
 
